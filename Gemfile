@@ -60,5 +60,6 @@ group :development do
   # gem "spring"
 
   gem "rbs_rails", require: false
+  gem "rbs-src", require: false
   gem "steep", require: false
 end
