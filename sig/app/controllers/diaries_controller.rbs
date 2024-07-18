@@ -1,5 +1,24 @@
 class DiariesController < ApplicationController
+  @diaries: Diary::ActiveRecord_Relation
+  @diary: Diary
+
+  def index: () -> void
+
+  def show: () -> void
+
+  def new: () -> void
+
+  def edit: () -> void
+
+  def create: () -> void
+
+  def update: () -> void
+
+  def destroy: () -> void
+
   private
+
+  def set_diary: () -> void
 
   def diary_params: () -> ActionController::Parameters
 end
