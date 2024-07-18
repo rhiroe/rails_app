@@ -3,6 +3,7 @@ interface _RbsRailsPathHelpers
   def rails_info_properties_path: (*untyped) -> String
   def rails_info_routes_path: (*untyped) -> String
   def rails_info_path: (*untyped) -> String
+  def import_path: (*untyped) -> String
   def diaries_path: (*untyped) -> String
   def new_diary_path: (*untyped) -> String
   def edit_diary_path: (*untyped) -> String
@@ -39,6 +40,7 @@ interface _RbsRailsPathHelpers
   def rails_info_properties_url: (*untyped) -> String
   def rails_info_routes_url: (*untyped) -> String
   def rails_info_url: (*untyped) -> String
+  def import_url: (*untyped) -> String
   def diaries_url: (*untyped) -> String
   def new_diary_url: (*untyped) -> String
   def edit_diary_url: (*untyped) -> String

@@ -1,0 +1,9 @@
+module Diaries
+  class ImportController < ApplicationController
+    def create: () -> void
+              
+    private
+
+    def import_params: () -> ActionController::Parameters
+  end
+end
