@@ -8,6 +8,7 @@ services:
 
     volumes:
       - ../..:/workspaces:cached
+      - bundle:/usr/local/rvm/gems/default
 
     # Overrides default command so things don't shut down after the process ends.
     command: sleep infinity
@@ -46,3 +47,4 @@ services:
 
 volumes:
   postgres-data:
+  bundle:
