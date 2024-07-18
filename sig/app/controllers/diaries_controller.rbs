@@ -1,0 +1,5 @@
+class DiariesController < ApplicationController
+  private
+
+  def diary_params: () -> ActionController::Parameters
+end
