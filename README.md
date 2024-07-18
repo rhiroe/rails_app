@@ -1,24 +1,3 @@
-# README
+# Rails App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+RailsのデフォルトにRBSとSteepを追加し、型検査を実行するためのディレクトリです。不足しているRBSを見つけたり、新たに追加・改修しようとしているRBSが期待通り動くかを確認するために使います。
