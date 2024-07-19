@@ -6,9 +6,12 @@ target :app do
     # Stop loading libraries through rbs-collection
     disable_collection
 
+    # gem毎のリポジトリ直下のRBSファイル
     signature 'sig/rbs-src/*/*.rbs'
+    # gem毎のテストディレクトリを除いたディレクトリ内のRBSファイル
     signature 'sig/rbs-src/*/[^_]*/**/*.rbs'
 
+    # rbs_collection.lock.yamlにてsource typeがstdlibになっているもの
     dep_path.readlines.each { |lib| library(lib.chomp) }
   end
 end
