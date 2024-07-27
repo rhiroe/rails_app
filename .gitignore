@@ -35,3 +35,4 @@
 /config/master.key
 
 sig/rbs-src
+rbs_src.dep
